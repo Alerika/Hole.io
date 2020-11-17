@@ -1,0 +1,21 @@
+PACMAN
+IGPE, Progetto Universitario.
+Scritto in Java Swing e Awt
+da Canonaco Martina e Pallaria Antonio.
+
+CONSIGLI D'UTILIZZO:
+• Una volta avviato il gioco appare il Menu e si potrà rigiocare il livello di default.
+• Una volta avviato il livello premere il tasto Escape per tornare al Menu.
+• I punteggi del/dei giocatore/giocatori verranno visualizzati alla fine del livello e solo in caso di vittoria.
+• Una volta tornati al Menu si potrà rigiocare il livello di default.
+• Per modificare le modalità di livello bisogna cambiare la difficoltà dal Menu->Options.
+• Nella modalità single player il giocatore viene inseguito in un certo range di distanza da un fantasma azzurro.
+• Nella modalità multiplayer il fantasma azzurro si 'attiva' una volta per un giocatore e una volta per un altro giocatore.
+• Non sarà sempre lo stesso fastasma ad attivarsi 'intelligente'.
+• Dopo il salvataggio di un livello editato sarà possibile giocarlo una sola volta.
+• Si consiglia di utilizzare lo stesso nome del livello editato precedentemente per sovrascriverlo.
+• Per una migliore fluidità è consigliato di aggiungere dei mattoncini nel livello editato.
+• Nella modalità multiplayer il player1 è rappresentato da un pacman giallo e si muove con le freccette.
+• Nella modalità multiplayer il player2 è rappresentato da un pacman verde e si muove con i tasti a-s-d-w.
+• Nel caso in cui si verifichino problemi di riproduzione di alcuni suoni, far ripartire il gioco.
+• Non bestemmiare.

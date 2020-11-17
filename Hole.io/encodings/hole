@@ -1,0 +1,24 @@
+%hole.io encoding ASP program
+%% INPUT %%
+% next(left) | next(right) | next(up) | next(down).
+% item(X,Y).
+% hole(X,Y).
+% tile(X,Y).
+% closestPellet(X,Y).
+% distanceClosestPellet(X,Y).
+% previous_action(X). %% left, right, up, down
+% distance/1
+
+
+distance(1..10).
+
+nextCell(X,Y) :- hole(Hx, Y), next(right), X=Hx+1, tile(X,Y).
+nextCell(X,Y) :- hole(Hx, Y), next(left), X=Hx-1, tile(X,Y).
+nextCell(X,Y) :- hole(X, Hy), next(up), Y=Hy+1, tile(X,Y).
+nextCell(X,Y) :- hole(X, Hy), next(down), Y=Hy-1, tile(X,Y).
+
+empty(X,Y) :- tile(X,Y), not item(X,Y).
+
+:~ nextCell(X,Y), empty(X,Y). [1:3]
+:~ nextCell(X,Y), closestItem(X,Y), distanceClosestItem(D). [D:2]
+:~ previous_action(X), next(Y), X!=Y. [1:1]
