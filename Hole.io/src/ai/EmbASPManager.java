@@ -59,11 +59,11 @@ public class EmbASPManager {
 			try {
 				for(Object obj : a.getAtoms())
 				{
-					
+					System.out.println("Alessia lascia le cose a metà");
 				}
 			} catch (Exception e) {
 				// TODO: handle exception
-				e.printStackTrace();
+				System.err.println(e.getMessage());
 			}
 		}
 	}

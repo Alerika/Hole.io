@@ -109,7 +109,7 @@ public class Scene extends JPanel implements Runnable{
 				try {
 					Thread.sleep(40);
 				} catch (InterruptedException e) {
-					e.printStackTrace();
+					System.err.println(e.getMessage());
 				}
 			}
 		}
